@@ -1,0 +1,95 @@
+Create Table LoginTab
+(uName nvarchar(50),
+pWord  nvarchar(50));
+
+insert into logintab values('admin','admin');
+
+
+Create Table CustomerTab
+(CustId nvarchar(50),
+pWord  nvarchar(50),
+Firstname  nvarchar(50),
+cAdd  nvarchar(50),
+PhoneNo nvarchar(50),
+email  nvarchar(50),
+Rem1  nvarchar(50));
+
+
+Create Table EyeDonarTab
+(CustId nvarchar(50),
+CustName  nvarchar(50),
+Address  nvarchar(50),
+MobileNo  nvarchar(50),
+Gender nvarchar(50),
+dob datetime,
+problems  nvarchar(50));
+
+Create Table DoctorTab
+(DoctorName  nvarchar(50),
+Address  nvarchar(50),
+MobileNo  nvarchar(50),
+eMail  nvarchar(50),
+Gender nvarchar(50),
+WorkingAt  nvarchar(50));
+
+
+Create Table CorniaCollectionTab
+(PackNo float,
+doc datetime,
+DoctorName nvarchar(50),
+CustName  nvarchar(50),
+age  int,
+Gender nvarchar(50),
+BloodGroup nvarchar(50),
+Condition  nvarchar(50),
+issued varchar(1));
+
+
+Create Table EyePatientTab
+(CustId nvarchar(50),
+CustName  nvarchar(50),
+Address  nvarchar(50),
+MobileNo  nvarchar(50),
+Gender nvarchar(50),
+dob datetime,
+problems  nvarchar(50),
+requirement nvarchar(50));
+
+
+
+Create Table KidneyDonarTab
+(CustId nvarchar(50),
+CustName  nvarchar(50),
+Address  nvarchar(50),
+MobileNo  nvarchar(50),
+Gender nvarchar(50),
+dob datetime,
+problems  nvarchar(50));
+
+Create Table KidneyPatientTab
+(CustId nvarchar(50),
+CustName  nvarchar(50),
+Address  nvarchar(50),
+MobileNo  nvarchar(50),
+Gender nvarchar(50),
+dob datetime,
+problems  nvarchar(50),
+requirement nvarchar(50));
+
+
+Create Table FAQTab
+(qNo float,
+Question nvarchar(50),
+Answer  nvarchar(50));
+
+
+
+
+
+
+
+
+
+
+
+  
